@@ -1,0 +1,28 @@
+# Default values for security-playground.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 1
+
+image:
+  repository: sysdiglabs/security-playground
+  tag: latest
+  pullPolicy: IfNotPresent
+
+namespaceOverride: "security-playground"
+
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
+
+service:
+  type: ClusterIP
+  port: 8080
+
+resources: {}
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
