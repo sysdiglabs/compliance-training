@@ -18,7 +18,7 @@ provider "sysdig" {
   #If your region is not listed, comment this line out and enter your SaaS secure URL
   #sysdig_secure_url        = "<SYSDIG_URL>"
 
-  #Enter your secure API Token here. Can be found in you SaaS account under settings/user profile
+  #Enter your secure API Token here. Can be found in your SaaS account under settings/user profile
   sysdig_secure_api_token  = "<SYSDIG_API_TOKEN>"
 }
 
