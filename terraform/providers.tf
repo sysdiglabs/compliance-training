@@ -19,7 +19,7 @@ provider "sysdig" {
   #sysdig_secure_url        = "<SYSDIG_URL>"
 
   #Enter your secure API Token here. Can be found in your SaaS account under settings/user profile
-  sysdig_secure_api_token  = "<SYSDIG_API_TOKEN>"
+  #sysdig_secure_api_token  = "<SYSDIG_API_TOKEN>"
 }
 
 provider "aws" {
