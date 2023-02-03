@@ -16,14 +16,14 @@ spec:
         app: app
     spec:
       containers:
-        - name: app
-          image: nginx:1.14.2
-          resources:
-            requests:
-              cpu: 100m
-              memory: 100Mi
-            limits:
-              cpu: 100M
-              memory: 100Mi
-          ports:
-            - containerPort: 80
+      - name: app
+        image: sysdiglabs/security-playground:latest 
+        resources:
+          requests:
+            cpu: 100m
+            memory: 100Mi
+          limits:
+            cpu: 100M
+            memory: 100Mi
+        ports:
+        - containerPort: 80
